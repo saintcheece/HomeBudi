@@ -3,6 +3,6 @@
 
     $_SESSION['jobindex'] = $_SESSION['jobindex'] + 1;
 
-    header("Location:land-worker.php");
+    header("Location:page-land-worker.php");
 
 ?>

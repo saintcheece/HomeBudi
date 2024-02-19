@@ -12,11 +12,11 @@
   if ($result->num_rows > 0) {
      $row = $result->fetch_assoc();
      if ($row['U_Role'] == 1) {
-         header("Location:land-owner.php?c=".$row['U_ID']); 
+         header("Location:page-land-owner.php?c=".$row['U_ID']); 
      } elseif ($row['U_Role'] == 2) {
-      header("Location:land-worker.php?c=".$row['U_ID']);
+      header("Location:page-land-worker.php?c=".$row['U_ID']);
      } elseif ($row['U_Role'] == 0){
-         header("Location:land-admin.php?c=".$row['U_ID']);
+         header("Location:page-land-admin.php?c=".$row['U_ID']);
      }
    } else {
       echo "<script>alert('Email or Password may be incorrect!');</script>";

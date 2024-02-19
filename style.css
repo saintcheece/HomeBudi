@@ -1,7 +1,13 @@
 @font-face {
-    font-family: "Poppins-Regular";
+    font-family: "Poppins";
     src: url("fonts/Poppins-Regular.ttf");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("fonts/Poppins-Bold.ttf");
+    font-weight: bold;
 }
 :root{
-    --bs-body-font-family: "Poppins-Regular", sans-serif;
+    --bs-body-font-family: "Poppins", sans-serif;
 }
